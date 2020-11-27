@@ -6,11 +6,11 @@
 # Identity Pool ID - us-east-1:b7523cee-e320-4e11-983e-25cc6ff37735
 # API Gateway - https://odf8otnpwa.execute-api.us-east-1.amazonaws.com/prod/
 
-# // Initialize the Amazon Cognito credentials provider
-# AWS.config.region = 'us-east-1'; // Region
-# AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-#     IdentityPoolId: 'us-east-1:b7523cee-e320-4e11-983e-25cc6ff37735',
-# });
+# Stripe Configuration 
+# Publishable key - pk_test_4HhmqYd9HiWZh4a9b0Zs6bHM004mv6EUeH
+# Secret key - sk_test_3FMZqXJVkjz4F3FBgG0deNN500aviyhCmQ
+
+
 
 # serverless deploy
 # Serverless: Stack update finished...
