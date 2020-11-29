@@ -1,3 +1,4 @@
+# Region - us-east-1
 # User Pool Id - us-east-1_mkDYiv4LI
 # User Pool ARN - arn:aws:cognito-idp:us-east-1:034529179006:userpool/us-east-1_mkDYiv4LI
 # User Pool App Client Name - notes-app
@@ -5,10 +6,13 @@
 # App Client Domain https://notes-app-dwh.auth.us-east-1.amazoncognito.com
 # Identity Pool ID - us-east-1:b7523cee-e320-4e11-983e-25cc6ff37735
 # API Gateway - https://odf8otnpwa.execute-api.us-east-1.amazonaws.com/prod/
+# S3 Bucket Name - notes-app-upload-fullstack
+
 
 # Stripe Configuration 
 # Publishable key - pk_test_4HhmqYd9HiWZh4a9b0Zs6bHM004mv6EUeH
 # Secret key - sk_test_3FMZqXJVkjz4F3FBgG0deNN500aviyhCmQ
+
 
 
 

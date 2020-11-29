@@ -12,7 +12,7 @@ plugins:
 provider:
   name: aws
   runtime: nodejs12.x
-  stage: prod
+  stage: dev
   region: us-east-1
 
   # These environment variables are made available to our functions
@@ -108,7 +108,3 @@ functions:
           cors: true
           method: post
           authorizer: aws_iam
-# Create our resources with separate CloudFormation templates
-resources:
-  # API Gateway Errors
-  - ${file(resources/api-gateway-errors.yml)}
